@@ -5,7 +5,7 @@
 
 This repository can be added as an **extension** in MakeCode.
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* open [Advanced Agriculture Tutorial v2](https://makecode.microbit.org/#tutorial:github:mbakhtar/iste-advanced-agriculture-v2/advancedagriculture)
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/mbakhtar/iste-advanced-agriculture-v2** and import
