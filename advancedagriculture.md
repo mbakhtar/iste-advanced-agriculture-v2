@@ -10,8 +10,7 @@ Plug your USB cable into the micro:bit and insert it into the Climate Action Kit
 ## Step 2
 Click on the ``||fwdSensors:Sensors||`` drawer and 
 find the ``||fwdSensors:set all ledRing LEDs to 10||``block.
-Drag the block under the ``||basic:forever||`` loop 
-and hit download to activate your LED.
+Drag the block under the forever loop and download the code to your micro:bit to activate your LED.
 Click on the bulb to show your hint.
 ```blocks
 basic.forever(function () {
@@ -34,8 +33,8 @@ basic.forever(function () {
 ```
 ## Step 4
 To show when your plant needs watering or not, go to the ``||basic:basic||`` 
-drawer and drag the ``||basic:show leds||`` 
-``||basic:show icon||`` block nest it under the ``||logic:if||`` condition. 
+drawer and drag the 
+``||basic:show icon||`` block. Nest it under the ``||logic:if||`` condition. 
 Change the icons to a smiley ``||basic: :)||`` and ``||basic: :(||``.
 Click on the bulb to show your hint.
 ```blocks
@@ -48,12 +47,12 @@ basic.forever(function () {
         )}
 ```
 ## Step 5
-Check your code by downloading and holding the moisture sensor between 
-your fingers. When you pinch it will mimic moisture and display a ``||basic: :)||`` 
-face and when you let go, it should display ``||basic: :(||``.
+Check your code by downloading it and holding the moisture sensor between 
+your fingers. When you hold this sensor, the simulator will indicate the moisture level and display a ``||basic::)||``
+and when you let go, it should display ``||basic: :(||``.
 
 ## Step 6
-Now to water your plant automatically when the soil is dry, go to the 
+To automatically water your plant when the soil is dry, go to the
 ``||fwdMotors:Motors||`` drawer  and add ``||fwdMotors:run pump for 500||`` under the 
  ``||basic: :(||`` in the ``||logic:If Else||`` block.
 Click on the bulb to show your hint.
@@ -69,7 +68,7 @@ basic.forever(function () {
 })
 ```
 ## Step 7
-To let the water soak in before your moisture sensor reads again, 
+To let the water soak in before your moisture sensor can detect water again, 
 go to your ``||basic:basic||`` drawer 
 to add a ``||basic:pause (ms) 500||`` 
 and a ``||basic:clear screen||`` block after your
@@ -89,8 +88,7 @@ basic.forever(function () {
 })
 ```
 ## Step 8
-Clip your moisture sensor onto the side rail and place your tube 
-into another empty cup. 
+Attach your moisture sensor to your project and place the tube in one empty cup. 
 Then download your code to test your automated watering system.
 Click on the bulb to show your hint.
 
