@@ -1,11 +1,11 @@
-# Sustainable Agriculture : The Power of Innovation 
+# Automatic Irrigation System
 ```package
 fwd-edu-breakout=github:climate-action-kits/pxt-fwd-edu/fwd-breakout
 ledRing=github:climate-action-kits/pxt-fwd-edu
 soilMoisture=github:climate-action-kits/pxt-fwd-edu
 ```
 ## Step 1 @showdialog
-![Plug your USB cable into the micro:bit and insert it into the Climate Action Kit board. Click on the button to the right of download and follow the steps to pair your micro:bit.](https://raw.githubusercontent.com/mbakhtar/iste-advanced-agriculture-v2/master/breakout-edited.png)
+Plug your USB cable into the micro:bit and insert it into the Climate Action Kit board. Click on the button to the right of download and follow the steps to pair your micro:bit.![Plug your USB cable into the micro:bit and insert it into the Climate Action Kit board. Click on the button to the right of download and follow the steps to pair your micro:bit.](https://raw.githubusercontent.com/mbakhtar/iste-advanced-agriculture-v2/master/pair%20microbit-280x203.gif)
 
 ## Step 2
 Click on the ``||fwdSensors:Sensors||`` drawer and 
