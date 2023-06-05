@@ -4,8 +4,8 @@ fwd-edu-breakout=github:climate-action-kits/pxt-fwd-edu/fwd-breakout
 ledRing=github:climate-action-kits/pxt-fwd-edu
 soilMoisture=github:climate-action-kits/pxt-fwd-edu
 ```
-## Step 1
-Plug your USB cable into the micro:bit and insert it into the Climate Action Kit board. Click on the button to the right of download and follow the steps to pair your micro:bit.
+## Step 1 @showdialog
+![Plug your USB cable into the micro:bit and insert it into the Climate Action Kit board. Click on the button to the right of download and follow the steps to pair your micro:bit.](https://raw.githubusercontent.com/mbakhtar/iste-advanced-agriculture-v2/master/breakout-edited.png)
 
 ## Step 2
 Click on the ``||fwdSensors:Sensors||`` drawer and 
@@ -93,6 +93,5 @@ Then download your code to test your automated watering system.
 Click on the bulb to show your hint.
 
 ## Step 9
-Congratulations on completing your Automatic Irrigation System!
-- everyone can use tech to make the world a better place! 
-Go back to the Forward Edu lesson for more activities and extensions"
+Congratulations on completing your Automatic Irrigation System! 
+Go back to the Forward Edu lesson for more activities and extensions
