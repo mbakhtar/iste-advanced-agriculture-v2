@@ -5,8 +5,9 @@ ledRing=github:climate-action-kits/pxt-fwd-edu
 soilMoisture=github:climate-action-kits/pxt-fwd-edu
 ```
 ## Step 1 @showdialog
-Plug your USB cable into the micro:bit and insert it into the Climate Action Kit board. Click on the button to the right of download and follow the steps to pair your micro:bit.![Plug your USB cable into the micro:bit and insert it into the Climate Action Kit board. Click on the button to the right of download and follow the steps to pair your micro:bit.](https://raw.githubusercontent.com/mbakhtar/iste-advanced-agriculture-v2/master/pair%20microbit-280x203.gif)
-
+Plug your USB cable into the micro:bit and insert it into the Climate Action Kit board. Click on the button to the right of download and follow the steps to pair your micro:bit.
+![microbit pair](https://raw.githubusercontent.com/mbakhtar/iste-advanced-agriculture-v2/master/pair%20microbit-280x203.gif)
+![breakout board](https://raw.githubusercontent.com/mbakhtar/wind-turbine-lesson-tutorial/master/breakout-resized.png)
 ## Step 2
 Click on the ``||fwdSensors:Sensors||`` drawer and 
 find the ``||fwdSensors:set all ledRing LEDs to 10||``block.
