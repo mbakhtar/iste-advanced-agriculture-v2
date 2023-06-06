@@ -5,9 +5,13 @@ ledRing=github:climate-action-kits/pxt-fwd-edu
 soilMoisture=github:climate-action-kits/pxt-fwd-edu
 ```
 ## Step 1 @showdialog
-Plug your USB cable into the micro:bit and insert it into the Climate Action Kit board. Click on the button to the right of download and follow the steps to pair your micro:bit.
+Plug your USB cable into the micro:bit and insert it into the 
+Climate Action Kit board. 
 ![breakout board](https://raw.githubusercontent.com/mbakhtar/wind-turbine-lesson-tutorial/master/breakout-resized.png)
-![microbit pair](https://raw.githubusercontent.com/mbakhtar/iste-advanced-agriculture-v2/master/pair%20microbit-280x203.gif)
+
+## Step 2 @showhint
+Click on the button to the right of download and follow the steps to pair your micro:bit.
+![pair gif](https://raw.githubusercontent.com/mbakhtar/iste-electric-vehicle-v1/master/pair%20microbit-280x203.gif)
 
 ## Step 2
 Click on the ``||fwdSensors:Sensors||`` drawer and 
@@ -91,9 +95,7 @@ basic.forever(function () {
 ```
 ## Step 8
 Attach your moisture sensor to your project and place the tube in one empty cup. 
-Then download your code to test your automated watering system.
-Click on the bulb to show your hint.
 
 ## Step 9
-Congratulations on completing your Automatic Irrigation System! 
-Go back to the Forward Edu lesson for more activities and extensions
+Download your code to test your Automatic Irrigation System.
+Congratulations on completing your Automatic Irrigation System! - Go back to the lesson for more activities and extensions.
