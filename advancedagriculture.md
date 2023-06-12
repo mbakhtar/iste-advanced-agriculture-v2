@@ -5,7 +5,7 @@ ledRing=github:climate-action-kits/pxt-fwd-edu
 soilMoisture=github:climate-action-kits/pxt-fwd-edu
 ```
 ## @showdialog
-Welcome to Automatic Irrigation System
+Welcome to Automatic Irrigation System Coding Tutorial
 ![built project](https://raw.githubusercontent.com/mbakhtar/iste-advanced-agriculture-v2/master/project%20-%20watering%20plant.png)
 
 ## Step 1 @showdialog
