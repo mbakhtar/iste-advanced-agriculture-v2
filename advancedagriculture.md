@@ -124,4 +124,3 @@ basic.forever(function () {
 ## Step 13
 ``|Download|`` and test your code.
 Congratulations on completing your Automatic Irrigation System! - Go back to the lesson for more activities and extensions.
-Click [here](https://forwardedu.com/course/sustainable-agriculture-the-power-of-innovation/) to go back to the lesson.
