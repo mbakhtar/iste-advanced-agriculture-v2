@@ -45,7 +45,7 @@ to replace ``||logic:true||`` condition of ``||logic:if then else||`` block.
 ```blocks
 basic.forever(function () {
     fwdSensors.ledRing.fwdSetAllPixelsColour(10)
-    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(5, fwdSensors.thresholdDirection.over)) {
+    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(5, fwdSensors.ThresholdDirection.Over)) {
           } 
     else {
         }
@@ -57,7 +57,7 @@ Select ``||basic: :)||`` icon.
 ```blocks
 basic.forever(function () {
     fwdSensors.ledRing.fwdSetAllPixelsColour(10)
-    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(5, fwdSensors.thresholdDirection.over)) {
+    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(5, fwdSensors.ThresholdDirection.Over)) {
           basic.showIcon(IconNames.Happy)} 
     else {
         }
@@ -69,7 +69,7 @@ Select ``||basic: :(||`` icon.
 ```blocks
 basic.forever(function () {
     fwdSensors.ledRing.fwdSetAllPixelsColour(10)
-    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(5, fwdSensors.thresholdDirection.over)) {
+    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(5, fwdSensors.ThresholdDirection.Over)) {
           basic.showIcon(IconNames.Happy)} 
     else {
         basic.showIcon(IconNames.Sad)}
@@ -81,7 +81,7 @@ Click ``||fwdMotors:Motors||`` drag and drop ``||fwdMotors:run pump for 500||`` 
 ```blocks
 basic.forever(function () {
     fwdSensors.ledRing.fwdSetAllPixelsColour(10)
-    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(50, fwdSensors.thresholdDirection.over)) {
+    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(50, fwdSensors.ThresholdDirection.Over)) {
         basic.showIcon(IconNames.Happy)
         } else {
         basic.showIcon(IconNames.Sad)
@@ -95,7 +95,7 @@ Change the ``||basic:100||`` to ``||basic:500||``
 ```blocks
 basic.forever(function () {
     fwdSensors.ledRing.fwdSetAllPixelsColour(10)
-    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(50, fwdSensors.thresholdDirection.over)) {
+    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(50, fwdSensors.ThresholdDirection.Over)) {
         basic.showIcon(IconNames.Happy)
         } else {
         basic.showIcon(IconNames.Sad)
@@ -111,7 +111,7 @@ block under ``||basic:pause (ms) 500||`` block.
 ```blocks
 basic.forever(function () {
     fwdSensors.ledRing.fwdSetAllPixelsColour(10)
-    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(50, fwdSensors.thresholdDirection.over)) {
+    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(50, fwdSensors.ThresholdDirection.Over)) {
         basic.showIcon(IconNames.Happy)
         } else {
         basic.showIcon(IconNames.Sad)
