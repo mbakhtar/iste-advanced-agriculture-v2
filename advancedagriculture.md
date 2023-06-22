@@ -42,11 +42,11 @@ basic.forever(function () {
 ```
 ## Step 7
 Click ``||fwdSensors:Sensors||`` drag and drop ``||fwdSensors:is soilMoisture1 moisture level over 5%||`` 
-to replace ``||logic:true||`` condition of ``||logic:if then else||`` block.
+to replace ``||logic:true||`` condition of ``||logic:if then else||`` block. Change ``||fwdSensors:5%||`` to ``||fwdSensors:50%||``
 ```blocks
 basic.forever(function () {
     fwdSensors.ledRing.fwdSetAllPixelsColour(10)
-    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(5, fwdSensors.ThresholdDirection.Over)) {
+    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(50, fwdSensors.ThresholdDirection.Over)) {
           } 
     else {
         }
@@ -58,7 +58,7 @@ Select ``||basic: :)||`` icon.
 ```blocks
 basic.forever(function () {
     fwdSensors.ledRing.fwdSetAllPixelsColour(10)
-    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(5, fwdSensors.ThresholdDirection.Over)) {
+    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(50, fwdSensors.ThresholdDirection.Over)) {
           basic.showIcon(IconNames.Happy)} 
     else {
         }
@@ -70,7 +70,7 @@ Select ``||basic: :(||`` icon.
 ```blocks
 basic.forever(function () {
     fwdSensors.ledRing.fwdSetAllPixelsColour(10)
-    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(5, fwdSensors.ThresholdDirection.Over)) {
+    if (fwdSensors.soilMoisture1.fwdIsMoistureLevelPastThreshold(50, fwdSensors.ThresholdDirection.Over)) {
           basic.showIcon(IconNames.Happy)} 
     else {
         basic.showIcon(IconNames.Sad)}
