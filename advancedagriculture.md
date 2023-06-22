@@ -21,7 +21,8 @@ Click three dots besides ``|Download|`` button and follow the steps to pair your
 ![pair gif](https://raw.githubusercontent.com/mbakhtar/iste-electric-vehicle-v1/master/pair%20microbit-280x203.gif)
 
 ## Step 5
-Click ``||fwdSensors:Sensors||`` drag and drop ``||fwdSensors:set all ledRing LEDs to 10||`` block inside ``||basic:forever||`` loop.
+Click ``||fwdSensors:Sensors||`` drag and drop ``||fwdSensors:set all ledRing LEDs to||`` block inside ``||basic:forever||`` loop.
+Select any colour of ``||fwdSensors:LED||``.
 ```blocks
 basic.forever(function () {
     fwdSensors.ledRing.fwdSetAllPixelsColour(10)
@@ -29,7 +30,7 @@ basic.forever(function () {
 ```
 ## Step 6
 Click ``||logic: Logic||`` drag and drop ``||logic:If then Else||``
-block under ``||fwdSensors:set all ledRing LEDs to 10||`` block.
+block under ``||fwdSensors:set all ledRing LEDs to||`` block.
 ```blocks
 basic.forever(function () {
     fwdSensors.ledRing.fwdSetAllPixelsColour(10)
@@ -124,3 +125,4 @@ basic.forever(function () {
 ## Step 13
 ``|Download|`` and test your code.
 Congratulations on completing your Automatic Irrigation System! - Go back to the lesson for more activities and extensions.
+Want to check your code click [here](https://makecode.microbit.org/S57696-70542-68862-49101).
